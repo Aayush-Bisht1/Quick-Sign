@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    height: 94vh;
+    width: 65vw;
+    background-color: #f9f9f9;
+    margin: 18px auto;
+    border-radius: 5px;
+}
+.top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.picker{
+    margin-top: 12px;
+}
+.pick{
+    margin-top: 10px;
+    width: 200px;
+    height: 28px;
+    padding: 2px;
+}
+p{
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+}
+.canvas{
+    width: 65vw;
+    height: 450px;
+    border: 2px solid black;
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    width: 230px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#clearbtn{
+    background-color: #D4403A;
+    color: #fff;
+}
+#savebtn{
+    background-color: #3A833A;
+    color: #fff;
+}
+#retrievebtn{
+    background-color: rgba(255, 255, 0, 0.815);
+} 
